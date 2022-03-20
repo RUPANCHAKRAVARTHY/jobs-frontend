@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,150 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+}
+html , body{
+  overflow-x: hidden !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.ant-layout-sider{
+height: 100vh !important;
+}
+.ant-layout-header span svg{
+height: 25px !important;
+width: 25px !important;
+margin-left: 10px !important;
+}
+.logo{
+  
+  text-align: center;
+  
+}
+ .logo h1{
+  color:aqua !important;
+  font-size: 30px !important;
+}
+.ant-layout-sider{
+  background: black !important;
+
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+background: black !important;
+}
+
+header.ant-layout-header.site-layout-background {
+  background-color:black !important;
+}
+.anticon {
+  color:aqua !important;
+  font-size:20px !important;
+  margin-right: 5px !important;
+}
+
+.ant-layout-content{
+  margin: 0 !important;
+  padding:10px !important;
+}
+.sweet-loading{
+  position:fixed !important;
+  top: 30% !important;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 9999;
+}
+.flex{
+  display: flex !important;
+  align-items: center !important;
+}
+P{
+  font-weight: 500 !important;
+  margin:2px !important;
+  padding: 2px !important;
+  font-size: 16px !important;
+}
+.bs{
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.job-div{
+  border-radius:15px !important;
+}
+button{
+  background-color:black !important;
+  color:aqua !important;
+  border-radius: 5px !important;
+}
+
+.login{
+  padding-top: 150px;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  height: 100vh !important;
+
+}
+.bs1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input , .ant-input{
+  border: 1px solid black !important;
+  box-shadow: none !important;
+}
+.ant-message{
+  z-index: 9999 !important;
+}
+.ant-btn{
+  height: 33px !important;
+}
+.usertext{
+  color: aqua !important;
+}
+.login-form{
+  background-color:white !important;
+}
+.register-form{
+  background-color:white !important;
+}
+.register{
+  padding-top: 150px;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  height: 100vh !important;
+}
+.heading1 , .heading2{
+font-size: 100px !important;
+color: black !important;
+text-align: center !important;
+}
+.heading1{
+border-top: 10px solid red !important;
+margin:10px;
+}
+.heading2{
+  border-bottom: 10px solid yellow !important;
+margin:10px;
+}
+.ant-menu-item{
+  margin-top: 20px !important;
 }
